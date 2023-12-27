@@ -394,11 +394,11 @@ namespace GLTFast.Materials
                     break;
             }
 
-            material.SetVector(BaseColorProperty, baseColorLinear.gamma);
+            material.SetVector(BaseColorProperty, baseColorLinear);
 
             if (gltfMaterial.Emissive != Color.black)
             {
-                material.SetColor(EmissiveFactorProperty, gltfMaterial.Emissive.gamma);
+                material.SetColor(EmissiveFactorProperty, gltfMaterial.Emissive);
                 material.EnableKeyword(k_EmissionKeyword);
             }
 

@@ -250,7 +250,7 @@ namespace GLTFast.Materials {
                 PbrSpecularGlossiness specGloss = gltfMaterial.Extensions.KHR_materials_pbrSpecularGlossiness;
                 if (specGloss != null) {
                     baseColorLinear = specGloss.DiffuseColor;
-                    material.SetVector( DiffuseFactorProperty, specGloss.DiffuseColor.gamma);
+                    material.SetVector( DiffuseFactorProperty, specGloss.DiffuseColor);
 #if UNITY_SHADER_GRAPH_12_OR_NEWER
                     material.SetVector(SpecularFactorProperty, specGloss.SpecularColor);
 #else
@@ -416,7 +416,7 @@ namespace GLTFast.Materials {
                     break;
             }
 
-            material.SetVector(BaseColorProperty, baseColorLinear.gamma);
+            material.SetVector(BaseColorProperty, baseColorLinear);
 
             if(gltfMaterial.Emissive != Color.black) {
                 material.SetColor(EmissiveFactorProperty, gltfMaterial.Emissive);

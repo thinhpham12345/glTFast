@@ -69,7 +69,7 @@ namespace GLTFast
 
         [SerializeField]
         [Tooltip("Controls how node names are created.")]
-        NameImportMethod nodeNameMethod = NameImportMethod.Original;
+        NameImportMethod nodeNameMethod = NameImportMethod.OriginalUnique;
 
         [SerializeField]
         [Tooltip("Target animation system.")]

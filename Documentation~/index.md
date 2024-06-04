@@ -1,6 +1,6 @@
 # Unity glTFast Documentation
 
-*Unity glTFast* enables use of [glTF&trade; (GL Transmission Format)][gltf] asset files in [Unity][unity].
+_Unity glTFast_ enables use of [glTF&trade; (GL Transmission Format)][gltf] asset files in [Unity][unity].
 
 It focuses on speed, memory efficiency and a small build footprint while also providing:
 
@@ -11,7 +11,7 @@ It focuses on speed, memory efficiency and a small build footprint while also pr
 
 ## Features
 
-*Unity glTFast* supports the full [glTF 2.0 specification][gltf-spec] and many extensions. It works with Universal, High Definition and the Built-In Render Pipelines on all platforms.
+_Unity glTFast_ supports the full [glTF 2.0 specification][gltf-spec] and many extensions. It works with Universal, High Definition and the Built-In Render Pipelines on all platforms.
 
 See the [comprehensive list of supported features and extensions](./features.md).
 
@@ -26,8 +26,6 @@ There are four use-cases for glTF within Unity
   - [Runtime Export](ExportRuntime.md) (save and share dynamic, user-generated 3D content)
   - [Editor Export](ExportEditor.md) (Unity as glTF authoring tool)
 
-![Schematic diagram of the four glTF workflows](Images/Unity-glTF-workflows.png "The four glTF workflows")
-
 #### Runtime Import/Loading
 
 Load and instantiate glTF files at runtime in your game/application via Script or the `GltfAsset` component.
@@ -38,17 +36,17 @@ Load and instantiate glTF files at runtime in your game/application via Script o
   - Make use of state-of-the art mesh and texture compression methods, like KTX&trade;/Basis Universal, Draco&trade; and meshoptimizer.
 - No need to re-build your application or Asset Bundles upon Unity version upgrades
 
-*glTF* was specifically designed for vendor-independent transmission and runtime loading and naturally plays its strengths there.
+_glTF_ was specifically designed for vendor-independent transmission and runtime loading and naturally plays its strengths there.
 
 #### Editor Import (Design-Time)
 
-Although primarily designed for runtime, *glTF*'s effective design and its modern, physically-based material definition make it great for most simple DCC (digital content creation) interchange as well.
+Although primarily designed for runtime, _glTF_'s effective design and its modern, physically-based material definition make it great for most simple DCC (digital content creation) interchange as well.
 
 Read about [usage](ImportEditor.md) below.
 
 ##### Benefits of Editor Import
 
-- Less friction between artists and developers due to *glTF* as standardized interface
+- Less friction between artists and developers due to _glTF_ as standardized interface
   - Example: artists don't need to know or follow Unity shader specific conventions and thus developers don't need to instruct them
 - Enables adding rich interaction and behavior to assets (e.g. custom scripts or animation controllers)
 - In conjunction with [Editor Export](ExportEditor.md), Unity becomes a complete tool for re-mixing 3D content
@@ -58,7 +56,7 @@ Read about [usage](ImportEditor.md) below.
 
 #### Editor Export
 
-Use the Unity Editor as an authoring tool and export your scenes and GameObjects as *glTFs*.
+Use the Unity Editor as an authoring tool and export your scenes and GameObjects as _glTFs_.
 
 > Note: This feature is experimental
 
@@ -85,13 +83,13 @@ Allows your Unity-powered application/game to export scenes/GameObjects to glTF 
 
 ## Trademarks
 
-*Unity&reg;* is a registered trademark of [Unity Technologies][unity].
+_Unity&reg;_ is a registered trademark of [Unity Technologies][unity].
 
-*Khronos&reg;* is a registered trademark and *glTF&trade;* is a trademark of [The Khronos Group Inc][khronos].
+_Khronos&reg;_ is a registered trademark and _glTF&trade;_ is a trademark of [The Khronos Group Inc][khronos].
 
-*KTX&trade;* and the KTX logo are trademarks of the [The Khronos Group Inc][khronos].
+_KTX&trade;_ and the KTX logo are trademarks of the [The Khronos Group Inc][khronos].
 
-*Draco&trade;* is a trademark of [*Google LLC*][GoogleLLC].
+_Draco&trade;_ is a trademark of [_Google LLC_][GoogleLLC].
 
 [gltf]: https://www.khronos.org/gltf
 [gltf-projects]: https://github.khronos.org/glTF-Project-Explorer
